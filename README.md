@@ -87,7 +87,7 @@ Par défaut, Python va chercher les variables d'environnement dans votre systèm
 ```python
 from dotenv import load_dotenv
 
-load_dotenv()
+
 ```
 **Placez la fonction *load_dotenv()* à la ligne 14, juste avant de récupérer les valeurs.**
 
@@ -129,7 +129,7 @@ Grâce à ce processus, il est possible de créer une pile de migrations, c'est-
 
 ### Migration
 
-Vous allez mettre ce processus en pratique. Vous devez migrer le schéma de la base de données de l'état initial vers l'état numéro 1, défini dans [SCHEMA.md](SCHEMA.md).
+Vous allez mettre ce processus en pratique. Vous devez migrer le schéma de la base de données de l'état initial vers l'état numéro 1, défini dans [SCHEMA.md](SCHE MA.md).
 
 Pour ce faire, remplissez le fichier migrate_1.sql avec une suite d'instructions SQL, afin d'obtenir le schéma désiré.
 
